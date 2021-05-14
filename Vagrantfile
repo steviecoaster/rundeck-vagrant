@@ -18,5 +18,6 @@ Vagrant.configure("2") do |config|
     rundeck.vm.network :forwarded_port, guest: 4440, host: 444, id: "RunDeck", auto_correct: true, host_ip: "127.0.0.1"
 
     rundeck.vm.provision :shell, :path => "install-rundeck.sh"
+    rundeck.vm.provision :shell, :path => "fix-redirection.sh"
   end
 end
