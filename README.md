@@ -1,7 +1,12 @@
 # System Requirements
 
 * Internet access to download packages from public repositories.
-* [Vagrant 2.2.9](http://downloads.vagrantup.com)
+* [Vagrant 2.2.9+](http://downloads.vagrantup.com)
+* [Virtualbox 6.1.14+](https://www.virtualbox.org/)
+
+### Installation via choco:
+
+`choco install virtualbox vagrant -y -s https://community.chocolatey.org/api/v2`
 
 _Optional_
 
